@@ -3,7 +3,7 @@
 <html lang="nl">
 <head>
 <meta charset="utf-8">
-<title>Live Radio Stream</title>
+<title>Live Beehive Stream</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 :root {
@@ -129,17 +129,17 @@ button:disabled { background: #334155; }
   </div>
 
   <div class="controls">
-    <button id="play">▶ Afspelen</button>
+    <button id="play">▶ Play</button>
     <button id="stop" disabled>■ Stop</button>
   </div>
 
   <div class="stats">
-    <div>Luistertijd: <span id="time">00:00</span></div>
+    <div>Time: <span id="time">00:00</span></div>
     <div>Latency: <span id="latency">–</span></div>
   </div>
 
   <div class="meter"><div id="level"></div></div>
-  <div id="fallback" class="fallback">Stream momenteel offline</div>
+  <div id="fallback" class="fallback">Stream offline</div>
 </div>
 
 <audio id="audio" crossorigin="anonymous"></audio>
